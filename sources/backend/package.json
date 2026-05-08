@@ -110,6 +110,21 @@
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
     },
+    "moduleNameMapper": {
+      "^src/(.*)$": "<rootDir>/$1",
+      "^@config/(.*)$": "<rootDir>/config/$1",
+      "^@common-request-dto/(.*)$": "<rootDir>/common/dto/request/$1",
+      "^@common-response-dto/(.*)$": "<rootDir>/common/dto/response/$1",
+      "^@common-request-dto-interfaces/(.*)$": "<rootDir>/shared/dto/request/$1",
+      "^@common-response-dto-interfaces/(.*)$": "<rootDir>/shared/dto/response/$1",
+      "^@common-types-dto/(.*)$": "<rootDir>/common/dto/types/$1",
+      "^@common-types/(.*)$": "<rootDir>/shared/types/$1",
+      "^@common-enums/(.*)$": "<rootDir>/shared/enums/$1",
+      "^@common-interfaces/(.*)$": "<rootDir>/common/interfaces/$1",
+      "^@common-utils/(.*)$": "<rootDir>/common/utils/$1",
+      "^@common-config/(.*)$": "<rootDir>/common/config/$1",
+      "^@custom-decorators/(.*)$": "<rootDir>/decorators/$1"
+    },
     "collectCoverageFrom": [
       "**/*.(t|j)s"
     ],
