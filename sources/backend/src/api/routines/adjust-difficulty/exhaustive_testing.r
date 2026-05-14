@@ -9,9 +9,10 @@ u_adequacy = seq(from=0.0, to=100.0, by=50) # The adequacy of an exergame
 u_mobility = seq(from=0.0, to=100.0, by=50) # Level of mobility of the involved joint / whole body
 u_exergame_diff = seq(from=0.0, to=100.0, by=50) # Difficulty of the exergame
 u_compensation = seq(from=0.0, to=100.0, by=50) # Compensation level
+u_fatigue = seq(from=0.0, to=100.0, by=50) # Fatigue level
 
 
-rep_incr_table <- expand.grid(time=u_time, completion=u_completion, performance=u_performance, mobility=u_mobility, exergame_diff=u_exergame_diff, compensation=u_compensation)
+rep_incr_table <- expand.grid(time=u_time, completion=u_completion, performance=u_performance, mobility=u_mobility, exergame_diff=u_exergame_diff, compensation=u_compensation, fatigue=u_fatigue)
 rep_incr_table$result <- apply(rep_incr_table, 1, function(x) gset_defuzzify(fuzzy_inference(rep_incr_model, x), "centroid"))
 is_nan <- any(unlist(Map(is.nan, rep_incr_table)))
 
