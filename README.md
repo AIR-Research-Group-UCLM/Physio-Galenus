@@ -100,3 +100,26 @@ This project is part of the research conducted by the AIR Research Group at UCLM
 * Martínez-Cid, S., Vallejo, D., Herrera, V., Schez-Sobrino, S., Castro-Schez, J. J., & Albusac, J. A. (2025). Explainable AI-driven decision support system for personalizing rehabilitation routines in stroke recovery. *Progress in Artificial Intelligence*. <https://doi.org/10.1007/s13748-024-00357-6>
 
 * Martinez-Cid, S., Essalhi, M., Herrera, V., Albusac, J., Schez-Sobrino, S., & Vallejo, D. (2025). An Adaptive Fatigue Detection Model for Virtual Reality-Based Physical Therapy. *Information*, *16*(2), 148. <https://doi.org/10.3390/info16020148>
+
+## How to Cite
+
+If you use Physio Galenus in your research, please cite the following article:
+
+> Martínez-Cid, S., Herrera, V., Monekosso, D. N., Schez-Sobrino, S., Albusac, J., & Vallejo, D. (2026). Physio Galenus: a modular decision support platform for AI-supported physical rehabilitation. *SoftwareX*, *35*, 102781. <https://doi.org/10.1016/j.softx.2026.102781>
+
+BibTeX:
+
+```bibtex
+@article{MartinezCid2026PhysioGalenus,
+  title     = {Physio Galenus: a modular decision support platform for AI-supported physical rehabilitation},
+  author    = {Mart{\'i}nez-Cid, Sergio and Herrera, Vanesa and Monekosso, Dorothy N. and Schez-Sobrino, Santiago and Albusac, Javier and Vallejo, David},
+  journal   = {SoftwareX},
+  volume    = {35},
+  pages     = {102781},
+  year      = {2026},
+  issn      = {2352-7110},
+  doi       = {10.1016/j.softx.2026.102781},
+  url       = {https://doi.org/10.1016/j.softx.2026.102781},
+  publisher = {Elsevier}
+}
+```
