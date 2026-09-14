@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Physio Galenus: a modular decision support platform for AI-supported physical rehabilitation"
+abstract: "Modular web platform that enables therapists to monitor the progress of patients in physical rehabilitation. It integrates a decision support system that automatically adjusts exercise programmes and routines from performance data, streamlining clinical supervision."
+authors:
+  - family-names: "Martinez-Cid"
+    given-names: "Sergio"
+    affiliation: "Universidad de Castilla-La Mancha, Ciudad Real, Spain"
+    orcid: "https://orcid.org/0009-0009-8976-4974"
+  - family-names: "Herrera"
+    given-names: "Vanesa"
+    affiliation: "Universidad de Castilla-La Mancha, Ciudad Real, Spain"
+    orcid: "https://orcid.org/0000-0002-6187-4794"
+  - family-names: "Monekosso"
+    given-names: "Dorothy N."
+    affiliation: "Durham University, United Kingdom"
+    orcid: "https://orcid.org/0000-0001-7322-5911"
+  - family-names: "Schez-Sobrino"
+    given-names: "Santiago"
+    affiliation: "Universidad de Castilla-La Mancha, Ciudad Real, Spain"
+    orcid: "https://orcid.org/0000-0001-6620-1719"
+  - family-names: "Albusac"
+    given-names: "Javier"
+    affiliation: "Universidad de Castilla-La Mancha, Ciudad Real, Spain"
+    orcid: "https://orcid.org/0000-0003-1889-3065"
+  - family-names: "Vallejo"
+    given-names: "David"
+    affiliation: "Universidad de Castilla-La Mancha, Ciudad Real, Spain"
+    orcid: "https://orcid.org/0000-0002-6001-7192"
+license: MIT
+repository-code: "https://github.com/AIR-Research-Group-UCLM/Physio-Galenus"
+keywords:
+  - "decision support system"
+  - "physical rehabilitation"
+  - "artificial intelligence"
+  - "clinical supervision"
+  - "web platform"
+  - "exercise prescription"
+preferred-citation:
+  type: article
+  doi: "10.1016/j.softx.2026.102781"
